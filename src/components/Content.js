@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
+
 function Content(props) {
 
     return(
@@ -15,7 +16,6 @@ function Content(props) {
                 </Col>
             </Row>
         </Container>
-
     );
 }
 

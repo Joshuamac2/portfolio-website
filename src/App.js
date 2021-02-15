@@ -11,6 +11,8 @@ import AboutPage from './pages/AboutPage';
 
 
 
+
+
 class App extends React.Component {
 
   constructor(props) {
@@ -22,15 +24,13 @@ class App extends React.Component {
         { title: 'About', path: '/about'},
       ],
       home: {
-        title: 'My website',
-        subTitle: 'Projects',
-        text: 'Checkout my projects below'
+        title: "Hey, I'm Joshua",
+        subTitle: 'Junior Developer',
+        text: 'Check out my projects below',
+        imgSrc: '/Users/joshua/Makers/Portfolio/src/assets/images/profile.png'
       },
       about: {
         title: 'About me'
-      },
-      contact: {
-        title: 'Reach me here!'
       }
     }
   }
@@ -51,10 +51,8 @@ class App extends React.Component {
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
-
               <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
               <Route path="/about" render={() => <AboutPage title={this.state.about.title}/>} />
-
               <Footer />
 
             </Container>
