@@ -13,12 +13,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 
 
-
-
-
-
-
-
 class App extends React.Component {
 
   constructor(props) {
@@ -32,15 +26,14 @@ class App extends React.Component {
       home: {
         title: "Hey, I'm Joshua",
         subTitle: 'Junior Developer',
-        text: 'Check out my projects below',
-        imgSrc: '/Users/joshua/Makers/Portfolio/src/assets/images/profile.png'
+        text: 'Check out my projects below'
       },
       about: {
         title: 'About me'
       }
     }
   }
-  
+
   render() {
     return (
           <Router>
