@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.97dd1749.chunk.css",
+    "main.js": "/static/js/main.38f40695.chunk.js",
+    "main.js.map": "/static/js/main.38f40695.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3af8725e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3af8725e.js.map",
+    "static/css/2.658248ec.chunk.css": "/static/css/2.658248ec.chunk.css",
+    "static/js/2.9fd9dae1.chunk.js": "/static/js/2.9fd9dae1.chunk.js",
+    "static/js/2.9fd9dae1.chunk.js.map": "/static/js/2.9fd9dae1.chunk.js.map",
+    "static/js/3.4f7b23a7.chunk.js": "/static/js/3.4f7b23a7.chunk.js",
+    "static/js/3.4f7b23a7.chunk.js.map": "/static/js/3.4f7b23a7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.97dd1749.chunk.css.map": "/static/css/main.97dd1749.chunk.css.map",
+    "static/js/2.9fd9dae1.chunk.js.LICENSE.txt": "/static/js/2.9fd9dae1.chunk.js.LICENSE.txt",
+    "static/media/bird.f8fb4014.png": "/static/media/bird.f8fb4014.png",
+    "static/media/profile.81023a5c.png": "/static/media/profile.81023a5c.png",
+    "static/media/thermostat.befd0233.png": "/static/media/thermostat.befd0233.png",
+    "static/media/whyleave.f3bcfeb6.png": "/static/media/whyleave.f3bcfeb6.png",
+    "static/media/workshop.14efea17.png": "/static/media/workshop.14efea17.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3af8725e.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.9fd9dae1.chunk.js",
+    "static/css/main.97dd1749.chunk.css",
+    "static/js/main.38f40695.chunk.js"
+  ]
+}
