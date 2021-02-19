@@ -46,7 +46,7 @@ class Carousel extends React.Component {
                         title: 'Not complete',
                         subTitle: 'Have your say on recent trending news article',
                         imgSrc: workshop,
-                        link: '',
+                        link: 'https://github.com/Joshuamac2/TheNewsLab-Backend',
                         selected: false
                     }
                 ] 
