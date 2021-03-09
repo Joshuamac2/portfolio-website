@@ -5,7 +5,7 @@ import Card from '../components/Card'
 import bird from '../assets/images/bird.png'
 import whyleave from '../assets/images/whyleave.png'
 import thermostat from '../assets/images/thermostat.png'
-import workshop from '../assets/images/workshop.png'
+import news from '../assets/images/news.png'
 
 
 import Container from 'react-bootstrap/esm/Container';
@@ -45,11 +45,11 @@ class Carousel extends React.Component {
                         id: 3,
                         title: 'Not complete',
                         subTitle: 'Have your say on recent trending news article',
-                        imgSrc: workshop,
-                        link: 'https://github.com/Joshuamac2/TheNewsLab-Backend',
+                        imgSrc: news,
+                        link: 'https://github.com/Joshuamac2/news-server',
                         selected: false
                     }
-                ] 
+                ]
 
             }
         }
@@ -58,7 +58,7 @@ class Carousel extends React.Component {
             let items = [...this.state.items];
 
             items[id].selected = items[id].selected ? false : true
-            
+
             items.forEach(item => {
                 if(item.id !== id){
                     item.selected = false;
@@ -81,7 +81,7 @@ class Carousel extends React.Component {
         render() {
             return(
                 <Container fluid={true}>
-                    
+
                     <Row className="justify-content-around">
                         {this.makeItems(this.state.items)}
                     </Row>
